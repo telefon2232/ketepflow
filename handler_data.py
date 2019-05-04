@@ -7,7 +7,6 @@ def handler_data():
 
     text=get_v()
     main_mas=[]
-
     line_mas=regular.handler_line(text)
     for line in line_mas:
         z = r"""cd /opt/openfoam-dev/src/transportModels/incompressible/viscosityModels/{}/ && cat {}.C | grep -E "\.lookup" | sed 's%.*lookup("\([^"]*\)".*%\1%g'""".format(line,line)
@@ -27,6 +26,7 @@ def handler_data():
 
         list_params.append(message)
         message = ''
+    print(list_params)
     return list_params
 #for i in handler_data():
  #   print(i)
