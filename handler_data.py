@@ -27,6 +27,9 @@ def handler_data():
         list_params.append(message)
         message = ''
     print(list_params)
+    for i in list_params:
+        if i=='':
+            del[i]
     return list_params
 #for i in handler_data():
  #   print(i)
