@@ -7,5 +7,7 @@ def handler_line(text):
         line=line[-1]
         line=line.split('.')
         line=line[0]
-        mas_line.append(line)
+        if line!='':
+            mas_line.append(line)
+
     return mas_line
