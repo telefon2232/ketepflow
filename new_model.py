@@ -1,5 +1,5 @@
-q=['strainRateFunction','Casson','CrossPowerLaw','Newtonian','powerLaw','BirdCarreau','HerschelBulkley']
-w=[[''],['m', 'tau0', 'nuMin_', 'nuMax_'],['nu0', 'nuInf', 'm', 'n'],['nu'],['k', 'n', 'nuMin', 'nuMax'],['nu0', 'nuInf', 'k', 'n'],['k', 'n', 'tau0', 'nu0']]
+#q=['strainRateFunction','Casson','CrossPowerLaw','Newtonian','powerLaw','BirdCarreau','HerschelBulkley']
+#w=[[''],['m', 'tau0', 'nuMin_', 'nuMax_'],['nu0', 'nuInf', 'm', 'n'],['nu'],['k', 'n', 'nuMin', 'nuMax'],['nu0', 'nuInf', 'k', 'n'],['k', 'n', 'tau0', 'nu0']]
 import new_handler
 import regular
 import get_value
